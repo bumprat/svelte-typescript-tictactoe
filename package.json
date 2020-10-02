@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app",
+  "name": "bumprat-svelte-typescript-rollup-template-tictactoe",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
@@ -24,5 +24,7 @@
     "tslib": "^2.0.0",
     "typescript": "^3.9.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [],
+  "description": ""
 }
