@@ -1,5 +1,5 @@
 {
-  "name": "bumprat-svelte-typescript-rollup-template-tictactoe",
+  "name": "svelte-typescript-tictactoe",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
