@@ -93,14 +93,15 @@
   .board {
     border-collapse: collapse;
   }
-  .row {
+  .message {
+    margin: 0.3rem;
   }
 </style>
 
 {#if $winner === 'empty'}
-  <div>Player {$whoIsNext}'s turn</div>
+  <div class="message">Player {$whoIsNext}'s turn</div>
 {:else}
-  <div>Player {$winner} wins</div>
+  <div class="message">Player {$winner} wins</div>
 {/if}
 
 <div class="board">
